@@ -85,3 +85,24 @@ h1 {
     padding: 10px;
     border: 1px solid blue;
 }
+
+/*Footer*/
+footer  {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+footer h3 {
+    text-align: center;
+    color: #3E92CC;
+    padding: 10px;
+}
+
+footer p {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid blue;
+}
