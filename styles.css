@@ -1,0 +1,87 @@
+/*Fonts: Helvetica (sans-serif), Helvetica neue (serif) */
+/*Color Scheme: #D8315B, #3E92CC, #0A2463, #1E1B18, #FFFAFF*/
+
+* {
+    background-color: #FFFAFF;
+    font-family: 'Helvetica Neue', sans;
+    color: #1E1B18;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 100%;
+}
+
+h1 {
+    color: #0A2463;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Welcome*/
+.index #welcome{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.index #welcome h3{
+    padding: 10px;
+    text-align: center;
+    color: #3E92CC;
+}
+
+.index #welcome #paragraph {
+    width: 70%;
+    /*border: 1px solid red;*/
+    float: left;
+}
+
+.index #welcome #picture {
+    width:30%;
+    /*border: 1px solid green;*/
+    overflow: hidden;
+}
+
+.index #welcome img {
+    width:50%;
+}
+
+/*Courses*/
+.index #courses {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+#courses h3 {
+    text-align: center;
+    color: #3E92CC;
+    padding: 10px;
+}
+
+
+/*About Me*/
+.index #about_me {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid blue;
+}
