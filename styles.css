@@ -26,6 +26,21 @@ nav {
     font-size: 100%;
 }
 
+a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.active{
+    color: #3E92CC;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #D8315B;
+    color: #FFFAFF;
+}
+
 hr {
     border-color: #1E1B18;
     margin: auto;
@@ -67,11 +82,11 @@ h2 {
     color: #3E92CC;
 }
 
-
 .index #welcome #picture img {
-    width:100%;
+    width: 100%;
     /*border: 1px solid green;*/
     overflow: hidden;
+    max-width: 200px;
 }
 
 
@@ -87,6 +102,7 @@ h2 {
     grid-template-rows: 250px 250px;
     row-gap: 10px;
     column-gap: 15px;
+    overflow: hidden;
 }
 
 .index #courses .course {
@@ -95,11 +111,19 @@ h2 {
   /*border: 2px dodgerblue solid;*/
 }
 
+.index #courses .course:hover {
+    border-left: 5px solid #D8315B;
+    border-top: 5px solid #D8315B
+    /*color: #FFFAFF;*/
+    /*border: 2px dodgerblue solid;*/
+  }
+
 .index #courses .course div h4{
     text-align: center;
     background-color: #3E92CC;
     color: #FFFAFF;
     padding: 10px;
+    font-size: 100%;
 }
 
 .index #courses .course div p{
@@ -107,18 +131,22 @@ h2 {
     background-color: #3E92CC;
     color: #FFFAFF;
     padding: 10px;
+    font-size: 75%;
+    overflow: scroll;
 }
+
 
 /*Footer Section*/
 .footer {
     margin: auto;
     width: 75%;
-    padding: 20px;
     padding-left: 0px;
     padding-right:0px;
+    padding-top: 10px;
     text-align: center;
     background-color: #0A2463;
     color: #fffaff;
+    
 }
 
 .footer div {
@@ -128,14 +156,33 @@ h2 {
 .footer div h4 {
     background-color:#0A2463;
     color:#FFFAFF;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 100%;
 }
   
 .footer p {
     font-size:12px;
     background-color:#0A2463;
     color:#FFFAFF;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 100%;
+}
+
+.footer div ul {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#0A2463;
+    color:#FFFAFF;
+    margin-bottom: 20px;
+}
+
+.footer div ul a {
+    background-color:#0A2463;
+    color:#FFFAFF;
+}
+
+.footer div ul a:hover {
+    background-color:#D8315B;
+    color:#FFFAFF;
 }
